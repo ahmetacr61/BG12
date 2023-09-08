@@ -17,3 +17,12 @@ Nr.1)
 a)
 Unter der Vererbung bei der OOP versteht man, dass eine neue Klasse die Attribute einer bereits vorhandenen Klasse verwenden kann, ohne diese in der neuen Klasse nochmal neu zu deklarieren.
 
+Nr.2)
+Es existiert eine abstrakte Hauptgruppe (eine Gruppe die keinen Constructor hat) namens "Person", welcher die privaten Attribute vorname und name hat. Beide dieser Attribute sind der Dateityp String.
+Des weiteren erben 3 Klassen (lehrer, Verwaltungspersonal und Schüler) von der Hauptklasse.
+Die Klasse Lehrer hat ein privates Attribut namens erstfach, welcher der Datentyp "String" ist.
+Die Klasse Verwaltungspersonal hat ein privates Attribut namens funktion, welcher der Datentyp "String" ist.
+Die Klasse Schüler hat ein privates Attribut namens mathenote, welcher der Datentyp "int" ist.
+--------
+AB 3
+
