@@ -1,0 +1,19 @@
+Wiederholung
+
+--------
+AB 1
+
+Nr.1
+b)
+Man könnte ein Attribut namens anzahlStuehle als Datentyp "int" hinzufügen, sodass man dann auch weiß, wie viele Stühle pro Raum zur verfügung stehen.
+
+e)
+Unter Überladen eines Konstuktors versteht man, dass man verschiedene "Versionen" von einem Konstruktor hat, wo man nicht alle (oder nur bestimmte) Parameter vergeben muss.
+In diesem Fall hab ich den Parameter "besitztWaschbecken" weggelassen, und falls man dies im Konstruktor nicht "vergibt", dann wird der boolean automatisch auf "false" gesetzt.
+--------
+AB 2
+
+Nr.1)
+a)
+Unter der Vererbung bei der OOP versteht man, dass eine neue Klasse die Attribute einer bereits vorhandenen Klasse verwenden kann, ohne diese in der neuen Klasse nochmal neu zu deklarieren.
+
