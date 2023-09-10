@@ -49,7 +49,7 @@ public class programm {
                     }
                 }
                 if(!wurdeRaumGefunden) {
-                    System.out.println("Der Raum " + raumSuchen + " ist nicht im System eingetragen!");
+                    System.out.println("Raum nicht gefunden!");
                 } else {
                     wurdeRaumGefunden = false;
                 }
