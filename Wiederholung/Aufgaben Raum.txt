@@ -24,5 +24,21 @@ Die Klasse Lehrer hat ein privates Attribut namens erstfach, welcher der Datenty
 Die Klasse Verwaltungspersonal hat ein privates Attribut namens funktion, welcher der Datentyp "String" ist.
 Die Klasse Schüler hat ein privates Attribut namens mathenote, welcher der Datentyp "int" ist.
 --------
-AB 3
+AB 5
 
+Nr.1)
+a)
+Raum:
+- private Attribut mit deren bezeichnungen, wie raumID als Integer, raucher als boolen (Ob man im Raum rauchen darf) und eine Arraylist von der Klasse "Tische" wo die anzahl der Tische angezeigt wird.
+- public Constructor für den Raum mir den Attributen raumID (als Integer) und raucher (als boolean).
+- public getter und setter für alle Attribute.
+- public Funktion des Typen void namens hinzufuegenTisch() mit Attribut eintisch (des "Objekts" Tisch).
+- public Funktion des Typen void namens loeschenTisch() mit Attribut eintisch (des "Objekts" Tisch).
+- public Funktion des Typen ArrayList namens getTische().
+
+Restaurant:
+- Besitzt mehr als 1 Objekt der Klasse "Raum"
+- private Attribut namens raeume des Datentyps ArrayList
+- public Funktion des Tyen void hinzufuegenRaum() mit Attribut einRaum (des "Objekts" Raum)
+- public Funktion des Typen void loeschenRaum() mit Atribut einRaum (des "Objekts" Raum)
+- public Funktion des Typen ArrayList getRaueme() ohne Attribute 
