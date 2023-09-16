@@ -15,5 +15,19 @@ public class main {
         System.out.println(mitarbeiter.getArbeitsvertrag().getTaetigkeitsbeschreibung());
         System.out.println(mitarbeiter.getArbeitsvertrag().getMonatlicherGehalt());
         System.out.println(mitarbeiter.getArbeitsvertrag());
+
+        System.out.println("\n---Firma und Mitarbeiter---");
+
+        Firma firma = new Firma();
+
+        firma.einfuegenMitarbeiter(new Mitarbeiter("Rheina", "Neuwuert", 69, null));
+        firma.einfuegenMitarbeiter(new Mitarbeiter("Lois", "Gruffyn", 420, null));
+
+        System.out.println(firma.suchenMitarbeiter(69));
+        System.out.println(firma.suchenMitarbeiter(840));
+        System.out.println(firma.suchenMitarbeiter(420));
+        System.out.println(firma.loeschenMitarbeiter(420));
+        System.out.println(firma.loeschenMitarbeiter(420));
+        System.out.println(firma.suchenMitarbeiter(420));
     }
 }
